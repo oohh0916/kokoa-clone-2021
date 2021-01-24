@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - KokoaTalk</title>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>98%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Da-eun</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__time">Friday, Jaunary 22, 2021</div>
+
+      <div class="message-row message-row__you">
+        <img
+          src="https://c.files.bbci.co.uk/11097/production/_109238796_gettyimages-450997371.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Da-eun</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >SANGHUI, IM SOOOOOOO ANGRY !!!!!!</span
+            >
+            <span class="message__time">19:03</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row_me">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >Gorilla, no, Da-eun, calm down plz..</span
+            >
+            <span class="message__time">19:04</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row__you">
+        <img
+          src="https://c.files.bbci.co.uk/11097/production/_109238796_gettyimages-450997371.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Da-eun</span>
+          <div class="message__info">
+            <span class="message__bubble">WHAT??? GORILLA??? R U CRAZY???</span>
+            <span class="message__time">19:04</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
